@@ -14,11 +14,12 @@ import { resumeData } from "@/data/resume";
 import { fadeInUp, staggerContainer } from "@/lib/animations";
 
 const titles = [
-  "Full Stack Developer",
+  "Senior Full Stack & GenAI Engineer",
   "React Developer",
   "Node.js Developer",
   "TypeScript Developer",
-  "UI/UX Enthusiast",
+  "Python Developer",
+  "AI/ML Enthusiast",
 ];
 
 export default function Hero() {

@@ -47,7 +47,7 @@ const highlights = [
 ];
 
 export default function About() {
-  const yearsOfExperience = new Date().getFullYear() - 2021;
+  const yearsOfExperience = new Date().getFullYear() - 2020;
 
   return (
     <section
@@ -191,15 +191,14 @@ export default function About() {
               </p>
               <div className="flex flex-wrap gap-3">
                 {[
-                  "Nx",
-                  "JavaScript",
-                  "TypeScript",
                   "React",
-                  "Next.js",
-                  "Tailwind",
+                  "TypeScript",
                   "Python",
+                  "Tailwind",
+                  "FastAPI",
                   "Node.js",
                   "Express.js",
+                  "Azure",
                   "MongoDB",
                   "PostgreSQL",
                 ].map((tech) => (

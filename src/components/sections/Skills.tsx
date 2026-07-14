@@ -60,6 +60,18 @@ const skillIcons: Record<string, React.ElementType> = {
   Twilio: SiTwilio,
   Sequelize: SiSequelize,
   "REST APIs": TbApi,
+  "Retrieval-Augmented Generation (RAG)": SiReact,
+  "AI Agents": SiReact,
+  LLMs: SiReact,
+  "Prompt Engineering": SiReact,
+  "AI Assistants": SiReact,
+  Azure: SiReact,
+  Vite: SiReact,
+  "Azure OpenAI": SiReact,
+  "Azure AI Search": SiReact,
+  "Azure Container Apps": SiReact,
+  MSSQL: SiReact,
+  "LLM Integration": SiReact,
 };
 
 // Color mapping for skill categories
@@ -86,6 +98,11 @@ const categoryColors: Record<
     bg: "bg-orange-100 dark:bg-orange-900/30",
     text: "text-orange-600 dark:text-orange-400",
     bar: "from-orange-500 to-orange-600",
+  },
+  AI: {
+    bg: "bg-yellow-100 dark:bg-yellow-900/30",
+    text: "text-yellow-600 dark:text-yellow-400",
+    bar: "from-yellow-500 to-yellow-600",
   },
   "Tools & Others": {
     bg: "bg-pink-100 dark:bg-pink-900/30",
